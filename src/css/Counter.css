@@ -1,0 +1,11 @@
+.button {
+    width: 60px;
+    margin: 15px;
+    font-size: 40px;
+    color: white;
+    background-color: tomato;
+}
+
+.counterValue {
+    font-size: 40px;
+}
