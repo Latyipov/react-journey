@@ -1,7 +1,8 @@
 import React, { useState } from "react"
-import "css/Counter.css"
+import "Counter/Counter.css"
 
 export function Counter() {
+	
 	const [counterValue, setCounterValue] = useState(0);
 
 	const onButtonClick = (countingDirection) => {
@@ -11,7 +12,6 @@ export function Counter() {
 		}
 		if (countingDirection === '-') {
 			setCounterValue(counterValue-1);
-			console.log(counterValue);
 		}
 		
 	}

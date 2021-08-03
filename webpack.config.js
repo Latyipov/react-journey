@@ -33,8 +33,9 @@ module.exports = {
     },
     resolve: {
         alias: {
-            css: path.resolve(__dirname, 'src/css/'),
-            js: path.resolve(__dirname, 'src/js/'),
+            App: path.resolve(__dirname, 'src/App/'),
+            Counter: path.resolve(__dirname, 'src/App/Counter/'),
+            IconColorChanger: path.resolve(__dirname, 'src/App/IconColorChanger/'),
             icons: path.resolve(__dirname, 'src/assets/icons/'),
             images: path.resolve(__dirname, 'src/assets/images/'),
         }
