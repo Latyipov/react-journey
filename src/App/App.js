@@ -7,7 +7,7 @@ import {ChangingSvgColor} from 'IconColorChanger/IconColorChanger.js'
 export function App() {
 	return (
 		<div>
-			<h1 className='blinking'>LOOK AT THIS!!!</h1>
+			<h1 className='blinking'>LOOK AT THIS!!!!!</h1>
 			<img src="images/omg-dog.gif"></img>
 			<Counter />
 			<ChangingSvgColor />
