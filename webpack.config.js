@@ -9,8 +9,7 @@ module.exports = {
     },
     // webpack 5 comes with devServer which loads in development mode
     devServer: {
-        port: 3000,
-        watchContentBase: true
+        port: 3000
     },
     // Rules of how webpack will take our files, complie & bundle them for the browser 
     module: {
@@ -28,6 +27,11 @@ module.exports = {
                 test: /\.css$/,
                 exclude: /node_modules/,
                 use: ['style-loader', 'css-loader']
+            },
+            {
+                test: /\.(jpg|gif)/,
+                exclude: /node_modules/,
+                use: 'asset/resource'
             }
         ]
     },

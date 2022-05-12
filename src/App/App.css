@@ -1,6 +1,10 @@
 .blinking {
     animation: blinkingText 2s infinite;
 }
+body {
+    color:rgb(8, 8, 201);
+    background-color: rgb(71, 214, 233);
+}
 
 @keyframes blinkingText {
     0% {
