@@ -24,6 +24,7 @@ export function ChangingSvgColor() {
 
 	return (
 		<div>
+			{console.log('1233')}
 			<Eye fill={currentColor} viewBox="0 0 32 32" height="100" width="100" />
 			<FlightIcon style={{ fontSize: 100, fill: currentColor }} />
 			<p>Current color: {currentColor}</p>

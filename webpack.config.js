@@ -7,10 +7,9 @@ module.exports = {
         path: path.join(__dirname, '/dist'),
         filename: 'index.bundle.js',
     },
-    // webpack 5 comes with devServer which loads in development mode
+    
     devServer: {
         port: 3000,
-        port: 3300,
         hot: true,
         compress: true,
         historyApiFallback: true,
@@ -31,6 +30,11 @@ module.exports = {
                 test: /\.css$/,
                 exclude: /node_modules/,
                 use: ['style-loader', 'css-loader']
+            },
+            {
+                test: /\.(jpg|gif)/,
+                exclude: /node_modules/,
+                use: 'asset/resource'
             }
         ]
     },
