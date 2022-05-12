@@ -7,7 +7,7 @@ module.exports = {
         path: path.join(__dirname, '/dist'),
         filename: 'index.bundle.js',
     },
-    // webpack 5 comes with devServer which loads in development mode
+    
     devServer: {
         port: 3000,
         hot: true,
